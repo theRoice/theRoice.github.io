@@ -1,4 +1,4 @@
-# WebDevStarter
+# My Github Page
 Boilerplate for static websites
 ---
 
