@@ -1,9 +1,9 @@
 # My Github Page
-Boilerplate for static websites
+This is the repo for my github page
 ---
 
 ## What is this?
-- Starting point for static websites
+- The repo for my github page
 
 ## How do I use this?
-- Clone the repo!
+- Go [here](https://www.github.com/theroice)!
