@@ -1,4 +1,4 @@
-// Fetch the JSON file
+// Fetch JSON
 fetch('resume.json')
   .then(response => response.json())
   .then(data => {
@@ -6,14 +6,14 @@ fetch('resume.json')
   })
   .catch(error => console.error('Error loading JSON:', error));
 
-// Populate the resume content
+// Populate content
 function populateResume(data) {
   document.getElementById('name').textContent = data.name || "Eric Leachman";
   document.getElementById('title').textContent = data.title || "Computer Science and Cyber Security";
 
   // Populate Education
   const educationList = document.getElementById('education-list');
-  educationList.innerHTML = ""; // Clear existing content
+  educationList.innerHTML = "";
   data.education.forEach(edu => {
     const eduDiv = document.createElement('div');
     eduDiv.innerHTML = `
@@ -31,7 +31,7 @@ function populateResume(data) {
 
   // Populate Work Experience
   const experienceList = document.getElementById('experience-list');
-  experienceList.innerHTML = ""; // Clear existing content
+  experienceList.innerHTML = "";
   data.workExperience.forEach(job => {
     const jobDiv = document.createElement('div');
     jobDiv.innerHTML = `
@@ -44,7 +44,7 @@ function populateResume(data) {
 
   // Populate Services
   const servicesList = document.getElementById('services-list');
-  servicesList.innerHTML = ""; // Clear existing content
+  servicesList.innerHTML = "";
   data.services.forEach(service => {
     const serviceDiv = document.createElement('div');
     serviceDiv.innerHTML = `
@@ -57,7 +57,7 @@ function populateResume(data) {
 
   // Populate Awards
   const awardsList = document.getElementById('awards-list');
-  awardsList.innerHTML = ""; // Clear existing content
+  awardsList.innerHTML = "";
   data.awards.forEach(award => {
     const awardDiv = document.createElement('div');
     awardDiv.innerHTML = `
@@ -72,11 +72,11 @@ function populateResume(data) {
 // Helper function to populate skills
 function populateSkills(sectionId, skills) {
   const section = document.getElementById(sectionId);
-  section.innerHTML = ""; // Clear existing content
+  section.innerHTML = "";
   const ul = document.createElement('ul');
   skills.forEach(skill => {
     const li = document.createElement('li');
-    li.textContent = `${skill.name} - Confidence Level: ${skill.confidenceLevel}`;
+    li.textContent = `${skill.name} - Proficiency Level: ${skill.confidenceLevel}`;
     ul.appendChild(li);
   });
   section.appendChild(ul);
