@@ -12,7 +12,11 @@ body {
     padding: 1rem;
   }
 
-  title {
+  header p {
+    color: #fff;
+  }
+
+  #title {
     color: #fff;
   }
   
