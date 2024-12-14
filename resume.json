@@ -1,0 +1,197 @@
+{
+    "education": [
+      {
+        "degreeName": "Bachelor of Science in Computer Science",
+        "college": "Eastern Washington University",
+        "city": "Cheney",
+        "state": "WA",
+        "startDate": "September 2022",
+        "endDate": "June 2025"
+      },
+      {
+        "degreeName": "Minor in Cyber Defense",
+        "college": "Eastern Washington University",
+        "city": "Cheney",
+        "state": "WA",
+        "startDate": "September 2022",
+        "endDate": "June 2025"
+      }
+    ],
+    "technicalSkills": {
+      "languages": [
+        {
+          "name": "Java",
+          "confidenceLevel": 6
+        },
+        {
+          "name": "Python",
+          "confidenceLevel": 5
+        },
+        {
+          "name": "C",
+          "confidenceLevel": 4
+        },
+        {
+          "name": "C#",
+          "confidenceLevel": 6
+        },
+        {
+          "name": "HTML",
+          "confidenceLevel": 6
+        },
+        {
+          "name": "CSS",
+          "confidenceLevel": 6
+        },
+        {
+          "name": "Javascript",
+          "confidenceLevel": 6
+        },
+        {
+          "name": "SQL",
+          "confidenceLevel": 5
+        },
+        {
+          "name": "Markdown",
+          "confidenceLevel": 7
+        },
+        {
+          "name": "Latex",
+          "confidenceLevel": 6
+        }
+      ],
+      "tools": [
+        {
+          "name": "Scapy",
+          "confidenceLevel": 4
+        },
+        {
+          "name": "Hypervisors",
+          "confidenceLevel": 6
+        },
+        {
+          "name": "NMAP",
+          "confidenceLevel": 6
+        },
+        {
+          "name": "Metasploit",
+          "confidenceLevel": 4
+        },
+        {
+          "name": "Wireshark",
+          "confidenceLevel": 5 
+        },
+        {
+          "name": "Docker",
+          "confidenceLevel": 6
+        },
+        {
+          "name": "Kubernetes",
+          "confidenceLevel": 5
+        }
+      ],
+      "Frameworks": [
+        {
+          "name": "Astro",
+          "confidenceLevel": 3
+        },
+        {
+          "name": "Tailwind",
+          "confidenceLevel": 3
+        },
+        {
+          "name": "Daisy",
+          "confidenceLevel": 3
+        }
+      ]
+    },
+    "workExperience": [
+      {
+        "jobTitle": "Cyber Lab: Assistant",
+        "companyName": "Eastern Washington University",
+        "startDate": "September 2024",
+        "endDate": "Current",
+        "city": "Spokane",
+        "state": "Washington",
+        "responsibilities": [
+          "Responsible for assisting in the maintenance and management of computers and servers.",
+          "Execut installation and troubleshooting of Cyber Security software.",
+          "Create and manage virtual machines for use in labs and research."
+        ]
+      },
+      {
+        "jobTitle": "Orthotics & Prosthetics Technician",
+        "companyName": "Kootenai Prosthetics & Orthotics",
+        "startDate": "February 2018",
+        "endDate": "October 2019",
+        "location": "Post Falls",
+        "state": "Idaho",
+        "responsibilities": [
+          "Developed and Fabricated custom prothetics and orthotics.",
+          "Delivered high quality products in timely and efficient manner.",
+          "Managed material inventory, including items with small shelf lives."
+        ]
+      },
+      {
+        "jobTitle": "Orthotics & Prosthetics Technician",
+        "companyName": "Evergreen Orthotics and Prosthetics",
+        "startDate": "September 2017",
+        "endDate": "February 2018",
+        "location": "Portland",
+        "state": "Oregon",
+        "responsibilities": [
+          "Fabricated orthotics and prosthetics for 10+ clinical staff members.",
+          "Assisted in fitting patients for orthotic devices.",
+          "Maintained production quality, efficiency, and pace in a fast-paced production environment."
+        ]
+      },
+      {
+        "jobTitle": "Chemical, Biological, Radiological, Nuclear Defense Specialist",
+        "companyName": "United States Marine Corps",
+        "startDate": "June 2009",
+        "endDate": "September 2013",
+        "location": "Jacksonville",
+        "state": "North Carolina",
+        "responsibilities": [
+          "Directed daily training operations and objectives for 15+ junior enlisted Marines",
+          "Organized, managed, and conducted training for 6,000+ Marines on an annual basis.",
+          "Produced core lesson plans and presentations for use as classroom aids.",
+          "Awarded Certificate of Commendation for services."
+        ]
+      }
+    ],
+    "services": [
+      {
+        "serviceTitle": "Eastern Washington University Cyber Security Club Officer",
+        "serviceResponsibilities": [
+          "I served this role as the secretary of the club.",
+          "Managed meetings, lesson plans, and club activities."
+        ],
+        "startDate": "2024",
+        "endDate": "Current",
+        "skills": [
+          "Leadership",
+          "Organization",
+          "Mentoring" 
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "",
+        "skills": [
+          ""
+        ],
+        "startDate": "",
+        "endDate": "",
+        "details": ""
+      }
+    ],
+    "awards": [
+      {
+        "awardTitle": "NCAE-C Regonal Champion Team",
+        "dateEarned": "2024",
+        "details": "NCAE-C is a collegiate cybersecurity team competition that demonstrates knowledge of Linux infrastructure and security."
+      }
+    ]
+  }
