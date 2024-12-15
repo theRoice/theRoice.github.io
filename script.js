@@ -69,18 +69,36 @@ function populateResume(data) {
   });
 }
 
-// Helper function to populate skills
 function populateSkills(sectionId, skills) {
-  const section = document.getElementById(sectionId);
-  section.innerHTML = "";
-  const ul = document.createElement('ul');
-  skills.forEach(skill => {
-    const li = document.createElement('li');
-    li.textContent = `${skill.name} - Proficiency Level: ${skill.confidenceLevel}`;
-    ul.appendChild(li);
-  });
-  section.appendChild(ul);
-}
+    const section = document.getElementById(sectionId);
+    section.innerHTML = ""; // Clear existing content
+  
+    skills.forEach(skill => {
+      const skillDiv = document.createElement('div');
+      skillDiv.classList.add('skill');
+  
+      const skillName = document.createElement('span');
+      skillName.classList.add('skill-name');
+      skillName.textContent = skill.name;
+      skillDiv.appendChild(skillName);
+  
+      const bubbleContainer = document.createElement('div');
+      bubbleContainer.classList.add('bubble-container');
+  
+      for (let i = 1; i <= 10; i++) {
+        const bubble = document.createElement('div');
+        bubble.classList.add('bubble');
+        if (i <= skill.confidenceLevel) {
+          bubble.classList.add('filled');
+        }
+        bubbleContainer.appendChild(bubble);
+      }
+  
+      skillDiv.appendChild(bubbleContainer);
+  
+      section.appendChild(skillDiv);
+    });
+  }
 
 // This loads navbar stuff
 fetch('navbar.html')
