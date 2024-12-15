@@ -89,3 +89,4 @@ fetch('navbar.html')
     document.getElementById('navbar').innerHTML = data;
   })
   .catch(error => console.error('Error loading navbar:', error));
+// comment to pre commit before bubble css and javascript code
