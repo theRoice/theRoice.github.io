@@ -49,10 +49,12 @@ body {
   }
 
   #navbar ul li {
+    text-align: center;
     margin: 0 10px;
   } 
 
   #navbar ul li a {
+    text-align: center;
     color: #fff;
     padding: 5px 10px;
     border-radius: 4px;
