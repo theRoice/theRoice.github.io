@@ -116,6 +116,7 @@ section {
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
   margin: 20px auto;
   max-width: 800px;
+  transition: all 0.3s ease;
 }
 
 section h2 {
