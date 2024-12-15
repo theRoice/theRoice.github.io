@@ -62,3 +62,13 @@ body {
     background-color: #555;
   }
   
+  .avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #222;
+    box-shadow: 0 4px 6px rgba(0,0,0, 0.3);
+    margin: 0 auto;
+    display: block;
+  }
