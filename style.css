@@ -38,7 +38,7 @@ ul {
 }
 
 #navbar {
-  background-color: linear-gradient(to right, #333, #555, #333);
+  background: linear-gradient(to right, #333, #555, #333);
   padding: 10px 20px;
 }
 
@@ -65,7 +65,7 @@ ul {
 }
 
 #navbar ul li a:hover {
-  background-color: #555;
+  background-color: #333;
 }
 
 .avatar {
@@ -102,4 +102,43 @@ ul {
 h1 {
   font-size: 2rem;
   text-align: center;
+}
+
+/* General styling for resume sections */
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+section h2 {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  text-align: left;
+  color: #333;
+}
+
+section p, section div {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #555;
+  text-align: left;
+}
+
+section div > * {
+  margin-bottom: 10px;
+}
+
+section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
 }
