@@ -157,6 +157,19 @@ section:hover {
   transition: all 0.3s ease;
 }
 
+section ul {
+  list-style-type: disc; /* Use circular bullets */
+  padding-left: 20px; /* Add padding for the bullet alignment */
+  margin: 0;
+}
+
+section ul li {
+  margin-bottom: 10px; /* Add space between list items */
+  color: #555; /* Match text color */
+  line-height: 1.6; /* Improve readability */
+}
+
+
 .skill {
   display: grid;
   grid-template-columns: 150px auto;
