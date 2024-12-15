@@ -1,90 +1,99 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap");
 
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-  }
-  
-  header {
-    text-align: center;
-    background: #333;
-    color: #fff;
-    padding: 1rem;
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
 
-  header p {
-    color: #fff;
-  }
+header {
+  text-align: center;
+  background: #333;
+  color: #fff;
+  padding: 1rem;
+}
 
-  #title {
-    color: #fff;
-  }
-  
-  section {
-    margin: 20px;
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
-  }
-  
-  h2 {
-    color: #333;
-  }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-  }
+header p {
+  color: #fff;
+}
 
-  #navbar {
-    background-color: #333;
-    padding: 10px 20px;
-  }
+#title {
+  color: #fff;
+}
 
-  #navbar ul {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 0%;
-  }
+section {
+  margin: 20px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
 
-  #navbar ul li {
-    text-align: center;
-    margin: 0 10px;
-  } 
+h2 {
+  color: #333;
+}
 
-  #navbar ul li a {
-    text-align: center;
-    color: #fff;
-    padding: 5px 10px;
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
-  }
+ul {
+  list-style: none;
+  padding: 0;
+}
 
-  #navbar ul li a:hover {
-    background-color: #555;
-  }
-  
-  .avatar {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 3px solid #222;
-    box-shadow: 0 4px 6px rgba(0,0,0, 0.3);
-    margin: 0 auto;
-    display: block;
-  }
+#navbar {
+  background-color: #333;
+  padding: 10px 20px;
+}
 
-  #about-me {
-    background-color: #f4f4f4;
-    padding: 20px;
-    border-radius: 20px;
-    box-shadow: 0 4px 6px rgba(0,0,0, 0.3);
-  }
+#navbar ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0%;
+}
 
-  #about-me h2 {
-    text-align: center;
-  }
+#navbar ul li {
+  text-align: center;
+  margin: 0 10px;
+}
+
+#navbar ul li a {
+  text-align: center;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+#navbar ul li a:hover {
+  background-color: #555;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #222;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  margin: 0 auto;
+  display: block;
+}
+
+#about-me {
+  align-items: center;
+  gap: 20px;
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+#about-me h2 {
+  font-size: 2rem;
+  line-height: 1.6;
+  text-align: center;
+}
+
+#about-me p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
